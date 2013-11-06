@@ -9,6 +9,7 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
+            //C_calculator calc = new C_calculator();
             C_sharp_calculator calc = new C_sharp_calculator();
             //calc.テスト();
 

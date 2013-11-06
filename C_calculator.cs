@@ -11,7 +11,7 @@ namespace ConsoleApplication2
         int 入力1 = 0;
         int 入力2 = 0;
         char 演算記号;
-
+        /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8/////////
         public void テスト()
         {
             int length = 9;
@@ -26,7 +26,7 @@ namespace ConsoleApplication2
                 Console.WriteLine(演算記号チェック(c.ToString()));
             }
         }
-
+        /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8/////////
         public string 演算式入力(string 文字)
         {
             switch (カウント)
@@ -66,7 +66,7 @@ namespace ConsoleApplication2
             }
             return "";
         }
-
+        /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8/////////
         private int 計算(int 第一項, char 演算子, int 第二項)
         {
             int result = 0;
@@ -89,7 +89,7 @@ namespace ConsoleApplication2
 
             return result;
         }
- 
+        /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8/////////
         public int 演算記号チェック(string 文字)
         {
             if( 文字.Length != 1 )
@@ -103,7 +103,7 @@ namespace ConsoleApplication2
 
             return -1;
         }
-
+        /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8/////////
         public int 数字チェック(string 文字)
         {
             int 整数;
@@ -114,5 +114,6 @@ namespace ConsoleApplication2
 
             return -1;
         }
+        /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8/////////
     }
 }
