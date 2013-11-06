@@ -9,7 +9,7 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            新電卓クラス calc = new 新電卓クラス();
+            C_sharp_calculator calc = new C_sharp_calculator();
             //calc.テスト();
 
             Console.Write(">");
